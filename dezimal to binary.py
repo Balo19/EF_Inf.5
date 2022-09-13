@@ -1,4 +1,4 @@
-numb = 2
+numb = 38
 
 def dez2bin(numb):
     Bin = bin(numb,).replace("0b","")
