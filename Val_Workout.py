@@ -1,6 +1,11 @@
-kills = input("kills")
-k = int
-assists= ("Assists")
-deaths = input("deaths")
-print(f"plancs {kills*assists}")
-print(f"pushups{assists}")
+kills = input("kills: ")
+integer_k=int(kills)
+assists= input("Assists: ")
+integer_as=int(assists)
+deaths = input("deaths: ")
+integer_de=int(deaths)
+
+print("Burpeas: " + str(integer_k-(integer_de//2)))
+print("Pushups: " + str(integer_k - (integer_as//2)))
+print("Sit ups: " + str(integer_k + integer_de))
+print("planks:  " + str(integer_k * (integer_de//4)))
