@@ -1,0 +1,27 @@
+
+h1 {
+    text-align: center;
+    text-decoration-line: underline;
+    font-size: 30pt;
+    line-height: 20px;
+  }
+  p {
+    text-align: center;
+    font-size: 15pt;
+    line-height: 30px;
+  }
+  .table {
+    float: left;
+    width: 50%;
+  }
+  G1,th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  G2 {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
